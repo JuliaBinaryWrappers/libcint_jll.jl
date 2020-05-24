@@ -1,0 +1,17 @@
+[[libcint]]
+arch = "x86_64"
+git-tree-sha1 = "266081032d47d015786055c3e9a5eff9029ac1e4"
+libc = "glibc"
+os = "linux"
+
+    [[libcint.download]]
+    sha256 = "5a6566dc607854a72bd092951d724f9a4d46fa967be626d62934e5d524866302"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v3.0.20+0/libcint.v3.0.20.x86_64-linux-gnu.tar.gz"
+[[libcint]]
+arch = "x86_64"
+git-tree-sha1 = "c09c24459eb2a13a73ba5f906d27585d8a6bd968"
+os = "macos"
+
+    [[libcint.download]]
+    sha256 = "e66e7d6b0aa5de28098fbd6ea29dcceac72c9578b0d0e7303d4d5c43d0517c3c"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v3.0.20+0/libcint.v3.0.20.x86_64-apple-darwin14.tar.gz"
