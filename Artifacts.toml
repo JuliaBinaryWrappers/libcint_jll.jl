@@ -1,17 +1,25 @@
 [[libcint]]
 arch = "x86_64"
-git-tree-sha1 = "266081032d47d015786055c3e9a5eff9029ac1e4"
+git-tree-sha1 = "8c2b374b42797a98729704e7f9b9731b455a2a2f"
+os = "macos"
+
+    [[libcint.download]]
+    sha256 = "fe0f3473d1d0d340255d3687bfb9b1c9a8905d7c239e7b0693543e9eab97b683"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v4.4.6+0/libcint.v4.4.6.x86_64-apple-darwin.tar.gz"
+[[libcint]]
+arch = "x86_64"
+git-tree-sha1 = "84259206a6b4868cf96662d9123f7125ca4aa9b0"
 libc = "glibc"
 os = "linux"
 
     [[libcint.download]]
-    sha256 = "5a6566dc607854a72bd092951d724f9a4d46fa967be626d62934e5d524866302"
-    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v3.0.20+0/libcint.v3.0.20.x86_64-linux-gnu.tar.gz"
+    sha256 = "c27ebfefd40ca439b28dd3c346d839cfff710ba3c02109df7f8f10996f431eb6"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v4.4.6+0/libcint.v4.4.6.x86_64-linux-gnu.tar.gz"
 [[libcint]]
 arch = "x86_64"
-git-tree-sha1 = "c09c24459eb2a13a73ba5f906d27585d8a6bd968"
-os = "macos"
+git-tree-sha1 = "97bf44f351572eca5ec710e14e22f5e491a03991"
+os = "windows"
 
     [[libcint.download]]
-    sha256 = "e66e7d6b0aa5de28098fbd6ea29dcceac72c9578b0d0e7303d4d5c43d0517c3c"
-    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v3.0.20+0/libcint.v3.0.20.x86_64-apple-darwin14.tar.gz"
+    sha256 = "0f4c79c7a41885214ba204c6de7c325a82e7d9e824bab092229fe274db10f363"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v4.4.6+0/libcint.v4.4.6.x86_64-w64-mingw32.tar.gz"
