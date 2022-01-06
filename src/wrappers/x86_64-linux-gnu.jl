@@ -3,7 +3,7 @@ export libcint
 
 using OpenBLAS32_jll
 JLLWrappers.@generate_wrapper_header("libcint")
-JLLWrappers.@declare_library_product(libcint, "libcint.so.4")
+JLLWrappers.@declare_library_product(libcint, "libcint.so.5")
 function __init__()
     JLLWrappers.@generate_init_header(OpenBLAS32_jll)
     JLLWrappers.@init_library_product(
