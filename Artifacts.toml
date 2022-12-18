@@ -1,17 +1,34 @@
 [[libcint]]
-arch = "x86_64"
-git-tree-sha1 = "c2a1f6b7ec106a2986f9ed2540ebaacdf519f257"
+arch = "aarch64"
+git-tree-sha1 = "f1614ec7571057aea96301206cad29a9e545a27b"
 os = "macos"
 
     [[libcint.download]]
-    sha256 = "d508e6ae56afd187b210edff5478e558c6fb46148117deacdb352afd3da42eb9"
-    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.1+0/libcint.v5.1.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "73c1087208623eb07079cea8dc1691ff1e7636b8967d0b7c0c4829df3ae6c999"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.7+0/libcint.v5.1.7.aarch64-apple-darwin.tar.gz"
 [[libcint]]
-arch = "x86_64"
-git-tree-sha1 = "f3ff094a872bc0e8e894e19b8f7129ee39b6fa75"
+arch = "aarch64"
+git-tree-sha1 = "986a11f6c508564be4536b6cae1a566e8ca89d16"
 libc = "glibc"
 os = "linux"
 
     [[libcint.download]]
-    sha256 = "5457b777f81345ba8823d1a92ac383d5abd32c66b9afcc83260a7bae00451301"
-    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.1+0/libcint.v5.1.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "31d085ce0098be1ffac2f36cceb21f21e31ffe23940bd264170d8bf27ccd3c2e"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.7+0/libcint.v5.1.7.aarch64-linux-gnu.tar.gz"
+[[libcint]]
+arch = "x86_64"
+git-tree-sha1 = "c34a6d3c3debc154455900868f7f44054c82f952"
+os = "macos"
+
+    [[libcint.download]]
+    sha256 = "1d6bb17eda77847e68e5645639c2d59ac188f6fa21e8b850c32ceeb54366b46a"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.7+0/libcint.v5.1.7.x86_64-apple-darwin.tar.gz"
+[[libcint]]
+arch = "x86_64"
+git-tree-sha1 = "b0ead1a93c080a7fd363faad4bf2f1e9036ae776"
+libc = "glibc"
+os = "linux"
+
+    [[libcint.download]]
+    sha256 = "387e601c36f2d56d65ef24590e95b860cfa31aea7be9c109e603c5ba00e5b1d3"
+    url = "https://github.com/JuliaBinaryWrappers/libcint_jll.jl/releases/download/libcint-v5.1.7+0/libcint.v5.1.7.x86_64-linux-gnu.tar.gz"

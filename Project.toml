@@ -1,6 +1,6 @@
 name = "libcint_jll"
 uuid = "574b78ca-bebd-517c-801d-4735c93a9686"
-version = "5.1.1+0"
+version = "5.1.7+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
